@@ -1,0 +1,40 @@
+body {
+  background-color: #f9f8f6;
+  color: #c9b59c;
+}
+
+.head {
+  width: 50%;
+  background-color: #efe9e3;
+  margin-left: 25%;
+  text-align: center;
+}
+
+.resume {
+  width: 50%;
+  margin-left: 25%;
+  text-align: center;
+  background-color: #efe9e3;
+}
+
+.projects {
+  text-align: center;
+  width: 50%;
+  background-color: #efe9e3;
+  margin-left: 25%;
+}
+
+.foot {
+  text-align: center;
+  width: 50%;
+  background-color: #efe9e3;
+  margin-left: 25%;
+}
+
+#left {
+  margin-left: 2%;
+}
+
+.projimg {
+  border: 2px #c9b59c dashed;
+}
