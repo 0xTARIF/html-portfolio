@@ -1,49 +1,53 @@
 <!DOCTYPE html>
 
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tarif's Portfolio</title>
-</head>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
 
-<body>
-    <h1>Tarif's Portfolio</h1>
-    <h2>I Am A Future Software Engineer HAHA:')</h2>
-    <hr />
+  <body>
+    <div class="head">
+      <h1>Tarif's Portfolio</h1>
+      <h2>I am the best software engineer xD:')</h2>
+    </div>
 
-    <h3>
-        <a href="./public/resume.html">
-            Here Is My Resume
-        </a>
+    <h3 class="resume">
+      <a href="./public/resume.html"> Here Is My Resume </a>
     </h3>
-    <br />
-    <h2>My Few Projects</h2>
-    <h3>
-        <a href="./public/birthday-invite.html">
-            Birthday Invite Project
-        </a> 
-    </h3>
-    <img src="./assets/images/birthday-invite.png" width="189" alt="Birthday Invite Project Preview">
 
-    <h3>
-        <a href="./public/movie-ranking.html">
-            Movie Ranking Project
-        </a> 
-    </h3>
-    <img src="./assets/images/movie-ranking.png" width="189" alt="Movie Ranking Project Preview">
-    
-    <hr />
+    <div class="projects">
+      <h2>My Few Projects</h2>
 
-    <a href="./public/about.html">
-        About Me
-    </a>
-    <br />
-    <a href="./public/contact.html">
-        Contact Me
-    </a>
+      <h3>
+        <a href="./public/birthday-invite.html"> Birthday Invite Project </a>
+      </h3>
 
-</body>
+      <img
+        class="projimg"
+        src="./assets/images/birthday-invite.png"
+        width="189"
+        alt="Birthday Invite Project Preview"
+      />
 
+      <h3>
+        <a href="./public/movie-ranking.html"> Movie Ranking Project </a>
+      </h3>
+
+      <img
+        class="projimg"
+        src="./assets/images/movie-ranking.png"
+        width="189"
+        alt="Movie Ranking Project Preview"
+      />
+    </div>
+
+    <div class="foot">
+      <a href="./public/about.html"> About Me </a>
+
+      <a id="left" href="./public/contact.html"> Contact Me </a>
+    </div>
+  </body>
 </html>
