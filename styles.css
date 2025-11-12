@@ -37,4 +37,6 @@ body {
 
 .projimg {
   border: 2px #c9b59c dashed;
+  width: 100%;
+  box-sizing: border-box;
 }
